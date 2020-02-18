@@ -3,17 +3,27 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.16.3",
     "jsonschema": "^1.2.4",
     "locus": "^2.0.1",
     "pg": "^7.5.0",
     "supertest": "^3.3.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justincheng20/bookstore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justincheng20/bookstore/issues"
+  },
+  "homepage": "https://github.com/justincheng20/bookstore#readme",
+  "description": ""
 }
